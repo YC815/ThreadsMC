@@ -118,7 +118,9 @@ export default function Home() {
           現在就加入伺服器！
         </h1>
         <div className="flex justify-center">
-          <Button className="h-20 w-56 text-2xl ">查看資訊</Button>
+          <Button href="/server_info" className="h-20 w-56 text-2xl ">
+            查看資訊
+          </Button>
         </div>
       </div>
     </div>
