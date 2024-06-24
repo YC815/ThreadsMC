@@ -36,7 +36,7 @@ export default function Home() {
           <a href="/" className="text-black dark:text-white">
             首頁
           </a>
-          <a href="/server_info.js" className="text-black dark:text-white">
+          <a href="/server_info" className="text-black dark:text-white">
             伺服器資訊
           </a>
           <a
