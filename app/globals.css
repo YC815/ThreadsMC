@@ -81,6 +81,14 @@
   .text-dark {
     color: 227, 100%, 84%; /* 适合黑暗模式的颜色 */
   }
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* 确保导航栏位于其他内容的上层 */
+  }
+  
   @layer base {
     * {
       @apply border-border;
