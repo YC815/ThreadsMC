@@ -70,7 +70,17 @@
       --ring: 212.7 26.8% 83.9%;
     }
   }
-
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .text-light {
+    color: 104, 100%, 33%;
+  }
+  .text-dark {
+    color: 227, 100%, 84%; /* 适合黑暗模式的颜色 */
+  }
   @layer base {
     * {
       @apply border-border;
