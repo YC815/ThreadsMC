@@ -10,13 +10,22 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
   const { setTheme } = useTheme();
   return (
     <div className="min-h-screen bg-[hsl(var(--background))]">
       <nav className="bg-[hsl(var(--nav-color))] p-4 flex justify-between items-center">
-        <div className="text-black dark:text-white text-xl">ThreadsMC</div>
+        <div className="flex items-center space-x-4">
+          <Avatar className="order-1">
+            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarFallback>CN</AvatarFallback>
+          </Avatar>
+          <div className="text-black dark:text-white text-xl order-2">
+            ThreadsMC
+          </div>
+        </div>
         <div className="space-x-4 flex items-center">
           <a href="/" className="text-black dark:text-white">
             首頁
