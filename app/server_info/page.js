@@ -72,18 +72,18 @@ export default function Home() {
       <div className="p-3 pt-32">
         <div className="flex flex-wrap justify-center gap-4">
           <div className="w-full md:w-1/3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-            <p className="text-lg font-bold text-black dark:text-white mb-2">
+            <p className="text-base md:text-lg font-bold text-black dark:text-white mb-2">
               Java IP
             </p>
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
               tw-5.cs-nodes.net:30623
             </p>
           </div>
           <div className="w-full md:w-1/3 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-md">
-            <p className="text-lg font-bold text-black dark:text-white mb-2">
+            <p className="text-base md:text-lg font-bold text-black dark:text-white mb-2">
               Bedrock IP
             </p>
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-sm md:text-base text-gray-700 dark:text-gray-300">
               IP: tw-1.cs-nodes.net <br />
               Port: 30623
             </p>
