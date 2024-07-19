@@ -42,6 +42,12 @@ export default function Home() {
             伺服器資訊
           </a>
           <a
+            href="https://cheapserver.tw/"
+            className="text-black dark:text-white"
+          >
+            合作夥伴
+          </a>
+          <a
             href="https://discord.gg/XVAVvafNNY"
             className="text-black dark:text-white"
           >
